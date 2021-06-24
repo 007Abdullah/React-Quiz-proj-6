@@ -12,3 +12,8 @@ export type QuestionType = {
     answer: string,
     option: string[]
 }
+export type propType = {
+    question: string,
+    options: string[]
+}
+
