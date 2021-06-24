@@ -1,4 +1,5 @@
 import React from 'react';
+
 export type Quiz = {
     category: string,
     correct_answer: string,
