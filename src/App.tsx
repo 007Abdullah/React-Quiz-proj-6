@@ -45,7 +45,6 @@ function App() {
           <h1>Correct Answer :{increment}</h1>
           Total Answer :{quiz.length}
         </div>
-
       </React.Fragment>
 
     )
