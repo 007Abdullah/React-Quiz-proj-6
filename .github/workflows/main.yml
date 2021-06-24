@@ -41,4 +41,4 @@ jobs:
         run: npm install -global surge
         
       - name: deploying on surge
-        run: surge ./build quiz-proj.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build quiz-project.surge.sh --token ${{secrets.SURGE_TOKEN}}
