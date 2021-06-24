@@ -42,4 +42,3 @@ jobs:
         
       - name: deploying on surge
         run: surge ./build quiz-proj.surge.sh --token ${{secrets.SURGE_TOKEN}}
-Loading
