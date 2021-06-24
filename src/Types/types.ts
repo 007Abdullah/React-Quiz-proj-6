@@ -1,4 +1,4 @@
-export type QuestionType = {
+export type Quiz = {
     category: string,
     correct_answer: string,
     difficulty: string,
@@ -7,7 +7,7 @@ export type QuestionType = {
     type: string
 }
 
-export type Quiz = {
+export type QuestionType = {
     question: string,
     answer: string,
     option: string[]
