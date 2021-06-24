@@ -14,11 +14,11 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 
-const Question: React.FC<propType> = ({ question, options, callback }) => {
+const Question: React.FC<propType> = ({ question, options, callback, currentQuestion }) => {
     const classes = useStyles();
     console.log("Comping : ", question);
     console.log("Comping : ", options);
-    let [userSelect, setUserSelect] = useState();
+    let [userSelect, setUserSelect] = useState("");
 
     const handleState = (e: any) => {
         setUserSelect(e.target.value);
@@ -29,7 +29,7 @@ const Question: React.FC<propType> = ({ question, options, callback }) => {
             <div className={classes.main_div}>
                 <Paper elevation={3} className={classes.paper}>
                     <div>
-                        Question : {question}
+                        Question  {currentQuestion}: {question}
                     </div>
                     <br />
                     <div>
