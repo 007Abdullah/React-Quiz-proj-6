@@ -51,6 +51,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1 style={{ textAlign: 'center', fontFamily: 'serif', textShadow: ' 2px 2px 4px #000000', color: 'white' }}>Quiz App</h1>
       <Question
         question={quiz[currentQuestion]?.question}
         options={quiz[currentQuestion]?.option}
